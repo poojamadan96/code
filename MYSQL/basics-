@@ -1,0 +1,18 @@
+basics-
+/usr/local/mysql/bin/mysql -u root -p = Default path to start stop also can be find in system preferences = to login to mysql server.
+It can be found in system prefernces
+
+
+====================================
+pip install pymysql = to install mysql version of python
+python3 -m pip install PyMySQL = install pymysql on mac
+
+=================
+Create Database connect to it=
+
+import lib
+make connection
+create cursor= cursor is temporary working area. ( Data is not transferred to database without it)
+execute sql statement
+commit connection for save data
+close the connection

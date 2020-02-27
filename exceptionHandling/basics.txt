@@ -1,0 +1,33 @@
+Basics
+When a program can be running but logically wrong
+Try = Try cannot be alone, It always either with except or finally.
+Like /0 is ans exception
+Finally block will take all the important tasks which must be executed
+Like file open close database
+except,try,finally
+Superclass(exception) all other are its types
+exception
+	IndexError
+	IndentationError
+	ZeroDivisionError
+	EOFError
+	EnvironmentError
+	MemoryError
+	ArithmaticError
+	BufferError
+	FloatingPointError
+	ImportError
+	KeyError
+	LookupError
+	OSError
+	RuntimeError
+	ReferenceError
+	SyntaxError
+	StandardError
+	SystemError
+	TabError
+	TypeError
+	UnboundError
+	UnicodeDecodeError
+	ValueError
+

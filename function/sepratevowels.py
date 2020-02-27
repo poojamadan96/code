@@ -5,6 +5,6 @@ def vowels(string):
 	for x in name:
 		if x=='a' or x=='e' or x=='i' or x=='o' or x=='u':
 			string=string+x
-	return string
+	           return string
 onlyvow=vowels(string)
 print(onlyvow)

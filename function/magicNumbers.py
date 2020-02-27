@@ -1,4 +1,4 @@
-#Magic numbers
+#Magic numbers like 19 = 1+9 = 10
 k=x=n=0
 no=int(input("Number "))
 def magic(no):

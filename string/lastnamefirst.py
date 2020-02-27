@@ -1,4 +1,4 @@
-# Ram Kumar sharma = Sharma R  K
+                   # Ram Kumar sharma = Sharma R  K
 name=input("Enter name")
 sname=name.split()
 size=len(sname)

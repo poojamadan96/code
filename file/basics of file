@@ -1,0 +1,38 @@
+#os model = canbe used in directory and file work
+#import os
+#os.mkdir ('new.txt') = create directory
+#os.rmdir ('new.txt') = remove
+#os.getcwd() = current working directory ='/Users/pmadan'
+#os.chdir('/Users') = change directory
+#>>> os.listdir() = ['.localized', '.%cb_defense', 'Shared', 'pmadan'] = List directories
+li=os.listdir() = Can save it in list as well , (li)
+print(li)
+To show the data in form of one by one in next line we can use the print statement for loop x
+for x in li:
+	print(x)
+
+
+#==============================
+os.mkdir('124')
+os.chdir('124')
+os.getcwd()
+file=open('abc.txt','w')
+file.write("Hello")
+file.close()
+
+os.listdir()
+
+=======================
+We cannot delete the unempty directory by using rmdir command
+>>> os.rmdir('123')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 66] Directory not empty: '123'
+
+
+so import shutil
+import shutil
+
+
+shutil.rmtree('123') = delete unempty directory
+ os.remove('A') = delete the file.

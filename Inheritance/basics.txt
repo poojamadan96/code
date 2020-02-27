@@ -1,0 +1,12 @@
+Inhertitance is the functuanality when drived class is made from base class.
+In case of inheritance we able to use all functinality from base class with the help of derived class object
+We can say that BAse class merge inside the drived class
+Python support single inheitance, multiple,multilevel.
+
+
+**multiple uses less memory then multilevel**
+
+
+Overhidding-
+It is a sictuation when base and derived class both have same function and parameters
+derived class that is only
